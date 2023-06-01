@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-header{
+header {
     background-color: black;
     color: white;
     height: 90px;
@@ -16,41 +16,41 @@ header{
     padding: 15px;
 }
 
-.logo{
+.logo {
     float: left;
     color: crimson;
     font-size: 40px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     text-shadow: 0 0 10px burlywood;
 }
 
-.logo span{
+.logo span {
     color: burlywood;
     text-shadow: 0 0 10px crimson;
 }
 
-.franja{
+.franja {
     float: right;
     font-size: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
-.franja a{
+.franja a {
     color: white;
     text-decoration: none;
     border: 2px solid burlywood;
 }
 
-.franja a:hover{
+.franja a:hover {
     color: crimson;
 }
 
-.franja li{
+.franja li {
     list-style: none;
     display: inline-block;
 }
 
-.home{
+.home {
     height: 100vh;
     width: 100%;
     background-image: url(imagenes/pizza-3007395_1280.jpg);
@@ -58,33 +58,33 @@ header{
     background-size: cover;
 }
 
-.bienvenido{
+.bienvenido {
     color: white;
     border: 4px solid burlywood;
     background-color: rgba(0, 0, 0, 0.696);
     width: 20%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
-h1{
+h1 {
     color: crimson;
     margin-bottom: 25px;
 }
 
-.bienvenido p{
+.bienvenido p {
     margin-bottom: 15px;
 }
 
-.destacados{
+.destacados {
     text-align: center;
     background-color: black;
     color: crimson;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     padding: 20px;
     border: 3px solid burlywood;
 }
 
-.banDest{
+.banDest {
     height: 500px;
     width: 100%;
     background-color: crimson;
@@ -92,46 +92,46 @@ h1{
     justify-content: space-evenly;
 }
 
-.card{
+.card {
     width: 30%;
     min-height: 280px;
     background-color: black;
     color: white;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     border: 3px solid burlywood;
     padding: 10px;
     transition: all 1.2s;
 }
 
-.card:hover{
+.card:hover {
     box-shadow: 0 0 5px 5px black;
     transform: scale(1.04);
     transition: all 1.2s;
 }
 
-.card-img{
+.card-img {
     background-image: url(imagenes/pepperonidest.jpg);
     background-size: cover;
     background-position: center;
     height: 450px;
 }
 
-.card-img2{
+.card-img2 {
     background-image: url(imagenes/pizza-margaritadest.jpg);
     background-size: cover;
     background-position: center;
     height: 450px;
 }
 
-.card-img3{
+.card-img3 {
     background-image: url(imagenes/pizzahawaianadest.jpg);
     background-size: cover;
     background-position: center;
     height: 450px;
 }
 
-footer{
+footer {
     text-align: center;
     font-size: 25px;
     color: white;
@@ -140,19 +140,7 @@ footer{
     padding: 10px;
 }
 
-.fooall{
-    text-align: center;
-    font-size: 25px;
-    color: white;
-    background-color: black;
-    border: 3px solid burlywood;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-.foomenu{
+.fooall {
     text-align: center;
     font-size: 25px;
     color: white;
@@ -164,13 +152,25 @@ footer{
     width: 100%;
 }
 
-.redes a{
+.foomenu {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    border: 3px solid burlywood;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.redes a {
     letter-spacing: 15px;
     font-size: 50px;
     color: white;
 }
 
-.subir{
+.subir {
     height: 40px;
     width: 40px;
     line-height: 40px;
@@ -184,65 +184,104 @@ footer{
     border: 3px solid black;
 }
 
-.subir:hover{
+.subir:hover {
     box-shadow: 0 0 5px burlywood;
 }
 
-.menu{
+.menu {
     background-color: crimson;
 }
 
-.menu-h2{
+.menu-h2 {
     text-align: center;
     background-color: black;
     color: crimson;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     padding: 20px;
     border: 3px solid burlywood;
 }
 
-.carta{
+.carta {
     display: flex;
     justify-content: space-evenly;
 }
 
-.cardmenu{
+.cardmenu {
     width: 25%;
     min-height: 200px;
     background-color: black;
     color: white;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     border: 3px solid burlywood;
     padding: 10px;
     transition: all 1.2s;
 }
 
-.cardmenu h3{
+.cardmenu h3 {
     font-size: 30px;
     color: red;
 }
 
-.cardmenu ul{
+.cardmenu ul {
     list-style: none;
-    
 }
 
-.cardmenu:hover{
+.cardmenu:hover {
     box-shadow: 0 0 5px 5px black;
-    transform: scale(1.30);
+    transform: scale(1.3);
     transition: all 1.2s;
 }
 
-.nosotros{
+.nosotros {
     background-color: crimson;
 }
 
-.galeria{
+.nosotros-h2 {
+    text-align: center;
+    background-color: black;
+    color: crimson;
+    font-family: "Times New Roman", Times, serif;
+    padding: 20px;
+    border: 3px solid burlywood;
+}
+
+.cartanosotros {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardnos {
+    width: 35%;
+    min-height: 400px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: large;
+    border: 3px solid burlywood;
+    padding: 20px;
+    transition: all 1.2s;
+}
+
+.cardnos:hover {
+    box-shadow: 0 0 5px 5px black;
+    transform: scale(1.3);
+    transition: all 1.2s;
+}
+
+.cardnos-img {
+    background-image: url(imagenes/pizzero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.galeria {
     background-color: crimson;
 }
 
-.galery{
+.galery {
     width: 100%;
     min-height: 600px;
     background-color: crimson;
@@ -251,94 +290,94 @@ footer{
     grid-template-rows: repeat(3, 260px);
 }
 
-.item{
+.item {
     border: 3px solid burlywood;
     background-size: cover;
     background-position: center;
 }
 
-.item1{
+.item1 {
     background-image: url(imagenes/pizzagrid1.jpg);
     grid-column: 1/3;
     grid-row: 1/2;
 }
 
-.item2{
+.item2 {
     background-image: url(imagenes/pizzagrid2.jpg);
     grid-column: 3/4;
     grid-row: 1/2;
 }
 
-.item3{
+.item3 {
     background-image: url(imagenes/pizzagrid3.jpg);
     grid-column: 4/5;
     grid-row: 1/3;
 }
 
-.item4{
+.item4 {
     background-image: url(imagenes/pizzagrid4.jpg);
-    grid-column: 1/2 ;
+    grid-column: 1/2;
     grid-row: 2/4;
 }
 
-.item5{
+.item5 {
     background-image: url(imagenes/pizzagrid5.jpg);
     grid-column: 2/3;
     grid-row: 2/3;
 }
 
-.item6{
+.item6 {
     background-image: url(imagenes/pizzagrid6.jpg);
     grid-column: 3/4;
     grid-row: 2/3;
 }
 
-.item7{
+.item7 {
     background-image: url(imagenes/pizzagrid7.jpg);
     grid-column: 2/3;
     grid-row: 3/4;
 }
 
-.item8{
+.item8 {
     background-image: url(imagenes/pizzagrid8.jpg);
     grid-column: 3/5;
     grid-row: 3/4;
 }
 
-.contacto{
+.contacto {
     background-color: crimson;
 }
 
-@media only screen and (min-width:320px) and (max-width:650px) {
-    header{
+@media only screen and (min-width: 320px) and (max-width: 650px) {
+    header {
         height: 150px;
     }
 
-    .franja a{
+    .franja a {
         border: 0px;
     }
 
-    .bienvenido{
+    .bienvenido {
         display: none;
     }
 
-    .card{
+    .card {
         font-size: small;
     }
 
-    .menu br{
+    .menu br {
         display: none;
     }
 
-    .carta{
+    .carta {
         flex-direction: column;
     }
 
-    .cardmenu{
+    .cardmenu {
         width: 100%;
     }
 
-    .foomenu{
+    .foomenu {
         text-align: center;
         font-size: 25px;
         color: white;
@@ -348,8 +387,26 @@ footer{
         position: relative;
     }
 
-    .galery{
-        grid-template-columns: repeat (1, 100%);
-        grid-template-rows: repeat (8, 200px);
+    .cartanosotros {
+        flex-direction: column;
+    }
+
+    .cardnos {
+        width: 100%;
+    }
+
+    .cardnos-img {
+        height: 500px;
+    }
+
+    .brnos {
+        display: none;
+    }
+
+    .galery {
+        grid-template-columns: repeat 1, 100%;
+        grid-template-rows: repeat 8, 200px;
     }
 }
+
+/*# sourceMappingURL=estilos.css.map */
